@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(231, 250, 243);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+
+h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%);
+    color: rgb(194, 26, 26);
+}
+h2 {
+    
+    color: rgb(194, 26, 26);
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(233, 159, 75);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: rgb(233, 159, 75);
+    border-color: rgb(233, 159, 75);
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+
+a {
+    color: #db3a78;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgb(218, 120, 63);
+    color: white;
+}
+
+tr:hover {
+    background-color: rgb(228, 224, 222);
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.success, .error {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea, input[type="tel"], input[type="email"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
