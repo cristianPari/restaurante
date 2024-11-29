@@ -115,16 +115,58 @@ form {
     margin-bottom: 20px;
 }
 
-input[type="text"], textarea, input[type="tel"], input[type="email"] {
+input[type="text"], textarea,input[type="tel"], input[type="email"] {
     width: 95%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #54c24a;
     border-radius: 4px;
 }
+input[type="number"] {
+    border: 1px solid #54c24a;
+} 
 
 label {
     display: block;
     margin-bottom: 5px;
 }
 
+select {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #54c24a;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333; 
+    transition: border-color 0.3s ease; 
+}
+
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #68c07e; /* Fondo blanco */
+    color: #ffffff; /* Color de texto */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+/* Cambia el fondo de la opción cuando el usuario pasa el mouse */
+option:hover {
+    background-color: #f1f1f1; /* Fondo gris claro al pasar el mouse */
+}
+
+/* Cambiar el estilo cuando el select tiene un valor seleccionado */
+select:valid {
+    color: #333; /* Mantener el color del texto normal cuando el valor es válido */
+}
+
+select:invalid {
+    color: #999; /* Color más tenue si no se selecciona un valor válido */
+}
