@@ -24,7 +24,11 @@ $clientes = obtenerCliente();
 <body>
     <div class="container">
         <h1>Lista de clientes</h1>
-        <a href="nuevo.php" class="button">Agregar un nuevo cliente</a>
+        <img style="position: absolute; left:39%; margin-top: -20px; width: 150px;" src="https://images.rappi.pe/restaurants_logo/a5cb83bc-fe90-421e-b7e2-9a020606bcdb-1618923957931.jpeg" ><br>
+
+        <a href="nuevo.php" class="button">Agregar un nuevo cliente</a><br><br>
+        <a href="../index.php" style="left: 12%; position:relative;">Volver</a>
+
         <table>
             <tr>
                 <th>Nombre</th>
@@ -45,7 +49,6 @@ $clientes = obtenerCliente();
             </tr>
             <?php endforeach; ?>      
         </table>
-        <a href="../index.php" class="button">Volver</a>
     </div>
 </body>
 </html>
