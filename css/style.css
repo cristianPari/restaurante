@@ -152,21 +152,19 @@ select:focus {
 option {
     padding: 10px;
     font-size: 16px;
-    background-color: #68c07e; /* Fondo blanco */
-    color: #ffffff; /* Color de texto */
-    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+    background-color: #68c07e;
+    color: #ffffff;
+    transition: background-color 0.3s ease; 
 }
 
-/* Cambia el fondo de la opción cuando el usuario pasa el mouse */
 option:hover {
-    background-color: #f1f1f1; /* Fondo gris claro al pasar el mouse */
+    background-color: #f1f1f1;
 }
 
-/* Cambiar el estilo cuando el select tiene un valor seleccionado */
 select:valid {
-    color: #333; /* Mantener el color del texto normal cuando el valor es válido */
+    color: #333;
 }
 
 select:invalid {
-    color: #999; /* Color más tenue si no se selecciona un valor válido */
+    color: #999;
 }
